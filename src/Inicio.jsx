@@ -1,12 +1,16 @@
 import * as React from 'react';
 import SmCero from './SM/Cero';
 import SmUno from './SM/Uno';
+
+import ResCero from './Responsys/ResCero';
+import ResUno from './Responsys/ResUno';
+import ResDos from './Responsys/ResDos';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Generator from './Components/List_Generator_Sm';
 import Generator_Res from './Components/List_Gen_Responsys';
 import Generator_Push from './Components/List_Gen_Push';
 
-
+//Para las listas
 var lista = Generator();
 var lista_2 = Generator_Res();
 var lista_3 = Generator_Push();
@@ -88,6 +92,10 @@ function Inicio() {
                         <Route path="/" element={<h1>Home</h1>}/>
                         <Route path="/SM/Cero" element={<SmCero/>}/>
                         <Route path="/SM/Uno" element={<SmUno/>}/>
+
+                        <Route path="/Responsys/ResCero" element={<ResCero/>}/>
+                        <Route path="/Responsys/ResUno" element={<ResUno/>}/>
+                        <Route path="/Responsys/ResDos" element={<ResDos/>}/>
                     </Routes>
                     </div>
                 
