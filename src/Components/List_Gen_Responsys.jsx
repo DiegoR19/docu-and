@@ -1,12 +1,16 @@
 function Generator_Res() {
     var list = [
         {
-            link:"/SM/Cero",
-            name:"Inicio 3.0"
+            link:"/Responsys/ResCero",
+            name:"Inicio"
         },
         {
-            link:"/SM/Uno",
-            name:"Acceso 3.0"
+            link:"/Responsys/ResUno",
+            name:"Acceso"
+        },
+        {
+            link:"/Responsys/ResDos",
+            name:"Carga de Materiales"
         },
     ];
     return list;

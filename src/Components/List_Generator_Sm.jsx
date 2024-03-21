@@ -2,7 +2,7 @@ function Generator() {
     var list = [
         {
             link:"/SM/Cero",
-            name:"Inicio 2.0"
+            name:"Inicio"
         },
         {
             link:"/SM/Uno",
