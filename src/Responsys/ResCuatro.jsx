@@ -39,15 +39,27 @@ function ResCuatro() {
                         </tr>
                         <tr>
                             <th scope='row'>Layout</th>
+                            <td>
+                                <p>Este apartado incluye una variedad de plantillas para el acomodo del cuerpo del mail. Esto incluye arreglos desde 2 hasta 4 columnas. Estos layouts son 100% responsivos, sin ninguna modificación en este aspecto. Es decir, siempre que sean más de 1 columna, en vista móvil, cada columna irá debajo de la anterior.</p>
+                                <p>Esto puede ser benefico en algunos casos. Sin embargo, para el uso común de la comunicación que realizamos, con una columna basta, para mantener así el estilo visual del diseño original. Además, así se mantiene una vista uniforme en todas las plataformas donde se distribuye esta comunicación.</p>
+                            </td>
                         </tr>
                         <tr>
                             <th scope='row'>Email Style</th>
-                        </tr>
-                        <tr>
-                            <th scope='row'>Viewport</th>
+                            <td>
+                            <p>La segunda sección de Design Components, incluye los siguientes componentes.</p>
+                                <ul>
+                                    <li><p>Background: Agregar texto como bloque de contenido. Al hacer uso de este elemento tenemos opción a utilizar un editor de texto simple. Con algunas opciones muy generales como tamaño, fuente y color, además de algunas otras.</p></li>
+                                    <li><p>Text Defaults: Añadir bloque de contenido dentro dle cual puede agregarse algún archivo de imagen (jpg, png, gif) previamente cargado.</p></li>
+                                    <li><p>Hyperlinks Defaults: Agregar un botón con texto dentro de este.</p></li>
+                                </ul>
+                            </td>
                         </tr>
                         <tr>
                             <th scope='row'>Cuerpo de la plantilla</th>
+                            <td>
+                                <p>En este apartado puede verse el cuerpo del mail completo, además de poder alternar entre las vistas desktop y mobile.</p>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
