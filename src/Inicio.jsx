@@ -5,6 +5,9 @@ import SmUno from './SM/Uno';
 import ResCero from './Responsys/ResCero';
 import ResUno from './Responsys/ResUno';
 import ResDos from './Responsys/ResDos';
+import ResTres from './Responsys/ResTres';
+import ResCuatro from './Responsys/ResCuatro';
+
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Generator from './Components/List_Generator_Sm';
 import Generator_Res from './Components/List_Gen_Responsys';
@@ -35,7 +38,7 @@ function Inicio() {
     return (
       <div className="Primer">
         <BrowserRouter>
-        <div className="Header w-100">
+        <div className="Header w-100 fixed-top">
         <div class="container">
             <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
@@ -44,8 +47,8 @@ function Inicio() {
             </nav>
         </div>
       </div>
-        <div class="container mt-5 rem w-100">
-            <div class="row">
+        <div class="container mt-5 rem w-100 ">
+            <div class="row ">
                     <div class="col-4">
                     <div class="accordion accordion-flush" id="accordionFlush">
                         <div class="accordion-item">
@@ -96,6 +99,9 @@ function Inicio() {
                         <Route path="/Responsys/ResCero" element={<ResCero/>}/>
                         <Route path="/Responsys/ResUno" element={<ResUno/>}/>
                         <Route path="/Responsys/ResDos" element={<ResDos/>}/>
+                        <Route path="/Responsys/ResTres" element={<ResTres/>}/>
+                        <Route path="/Responsys/ResCuatro" element={<ResCuatro/>}/>
+
                     </Routes>
                     </div>
                 

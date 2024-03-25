@@ -3,7 +3,7 @@ import * as React from 'react';
 function Lista() {
     
     return (
-        <div class="container mt-5 rem w-100">
+        /*<div class="container mt-5 rem w-100">
             <div class="row">
                 <div class="col-4">
                 <div class="accordion" id="accordionExample">
@@ -89,8 +89,9 @@ function Lista() {
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        </div>*/
+    
+    <div></div>    );
   }
   
   export default Lista;

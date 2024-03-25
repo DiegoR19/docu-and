@@ -12,6 +12,14 @@ function Generator_Res() {
             link:"/Responsys/ResDos",
             name:"Carga de Materiales"
         },
+        {
+            link:"/Responsys/ResTres",
+            name:"Creación de Plantilla de Email"
+        },
+        {
+            link:"/Responsys/ResCuatro",
+            name:"Visual Template Designer"
+        },
     ];
     return list;
 }

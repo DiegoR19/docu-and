@@ -5,9 +5,9 @@ function ResUno() {
     return (
       <div className="Primer">
         <div class="container">
-          <p class="h5 fw-light m-t 4">Last edited on: <strong>20/03/2024</strong></p>
+          <p class="fw-light m-t 4">Last edited on: <strong>20/03/2024</strong></p>
           <p class="h1 fw-bold">Responsys - Acceso</p>
-          <p class="h5 fw-light">Para ingresar a Oracle Responsys será necesario tener una cuenta y acceder a su página de login. <a href="https://fch1qwt.responsys.ocs.oraclecloud.com/authentication/login/LoginPage" className='fw-bold color-primary'>Oracle Sign In</a></p>
+          <p>Para ingresar a Oracle Responsys será necesario tener una cuenta y acceder a su página de login. <a href="https://fch1qwt.responsys.ocs.oraclecloud.com/authentication/login/LoginPage" className='fw-bold color-primary'>Oracle Sign In</a></p>
 
           <div>
             <img src={image1} alt="" className='w-75'/>
